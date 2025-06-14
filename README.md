@@ -6,8 +6,8 @@ This can:
 - [x] Read the different files
 - [ ] Reconstruct file tree structure
 - [ ] Display Metadata
-    - [ ] Type of object
-    - [ ] Size of file and directories
+    - [x] Type of object
+    - [x] Size of file and directories
     - [ ] Last time read/modified
 
 
