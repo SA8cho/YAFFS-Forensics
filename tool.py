@@ -284,6 +284,14 @@ def list_yaffs2_tree_metadata(image_path):
     print(".root/")
     print_tree(tree, prefix="", parent_path="", metadata_map=metadata_map)
 
+def main():
+    # Are enough arguments are provided ?
+    if len(sys.argv) < 2:
+        print("Usage: python tool.py <path/to/yaffs2/image.img>")
+        sys.exit(1)
+    
+    path = sys.argv[1]
+    list_yaffs2_tree_metadata(path)
 
 if __name__ == "__main__":
-    list_yaffs2_tree_metadata("yaffs2_image.img")
+    main()

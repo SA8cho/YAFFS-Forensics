@@ -31,16 +31,9 @@ pip install -r requirements.txt
 
 
 ## Usage
-
-```python
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+Execute it from your shell with the path to your YAFFS2 image as parameter
+```bash
+python3 tool.py  <path/to/yaffs2/image.img>
 ```
 
 Example with the provided file
